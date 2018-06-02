@@ -58,7 +58,7 @@ nav ul li a:hover{}
     margin: 0 auto;
 }
 article{
-    padding: 30px 0;
+    padding: 40px 30px;
 }
 article span{
     color: #b1afaf;
@@ -115,16 +115,23 @@ article a span{}
 	font-size: 20px;
 	color:black;
 }
-.sign-up .in{
-	background-color: #e4e2e2; /* Green */
+.sign-up form{
+}
+.sign-up form input[type=email] {
     border: none;
-    color: gray;
-    padding: 15px 20px;
+    background: none;
+    text-align: left !important;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: -8px;
+	margin-bottom: 10px;
+	margin-right: 120px;
+}
+.sign-up hr {
+    width: 25%;
     text-align: left;
-    text-decoration: underline;
-    display: inline-block;
-    font-size: 16px;
-    border:bottom;
+    margin: auto;
+    color: black;
 }
 .sign-in{
 	background:#e4e2e2;
@@ -133,14 +140,18 @@ article a span{}
 .load{
 	width:100%;
 	background: white;
+	font-size: 40px;
+	color:#bbbbbb;
 }
 .load .load1{
 	text-align: center;
 	margin:0 auto;
-	padding:30px 50px;
+	padding-bottom: 50px;
 }
 button{
-	padding:30px 50px;
+	padding:20px 50px;
+	font-size: 20px;
+	color:#565555;
 }
 
 
