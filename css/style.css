@@ -57,8 +57,8 @@ nav ul li a:hover{}
     width:  1000px;
     margin: 0 auto;
 }
-article{
-    padding: 40px 0;
+.art1{
+    padding: 40px 30px;
 }
 article span{
     color: #b1afaf;
@@ -75,6 +75,9 @@ article a span{}
 
 .gallery-box{
     overflow:  hidden;
+}
+.art2{
+	padding: 40px 0;
 }
 .gallery-box1{
     /* width:  50%; */
