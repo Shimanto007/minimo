@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 body{
+	width:100%;
 	margin:0;
 	padding:0;
-	width:100%;
 	font-family: 'Lato', sans-serif;
 	font-size:16px;
 	color: gray;
@@ -13,11 +13,12 @@ img{
 	display:block; 
 }
 header{
+	width:100%;
     margin: auto;
     padding:  30px 0;
 }
 .container{
-    width:  1200px;
+    width:  90%;
     margin: 0 auto;
     overflow:  hidden;
 }
@@ -55,7 +56,7 @@ nav ul li a:hover{}
 
 .article-section{}
 .container-box{
-    width:  1000px;
+    width:  80%;
     margin: 0 auto;
 }
 .art1{
@@ -160,6 +161,7 @@ button{
 
 
 footer{
+	width:100%;
 	background: #bbbbbb;
 	padding:30px 0;
 }
